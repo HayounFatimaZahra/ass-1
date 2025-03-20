@@ -366,6 +366,7 @@ print(sorted(liste))
 ```
 
 ### Correction 3
+ ```
 l1=[2,5,8,12,14,3]
 l2=[3,1,-1]
 
@@ -377,6 +378,7 @@ def intersection(l1,l2):
         l3.append(e)
   return l3
 print(intersection(l1,l2))
+ ```
 
 <div id="pad_4.2" class="pad"></div>
 <script>
