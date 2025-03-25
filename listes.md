@@ -538,7 +538,7 @@ for p, n, a in zip(prenoms, noms, ages):
 Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de même taille.
 
 ```
-# Ex1
+# Exercice 1
 def verifier(l):
   for i in range(len(l)-1):
     if l[i]>l[i+1]:
@@ -579,6 +579,10 @@ def dep3(l):
   return d
 print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 ```
+#Correction 2
+sol 1 {'A': 3, 'B': 4, 'C': 3}
+sol 2 {'A': 3, 'B': 4, 'C': 3}
+sol 3 {'A': 3, 'B': 4, 'C': 3}
 
 ## Liste des exercices de ce chapitre
 
